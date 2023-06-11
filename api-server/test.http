@@ -1,0 +1,13 @@
+GET '/'
+
+###
+POST '/api/Register'
+Content-Type: application/json
+
+{
+    "userName":"Ravindra",
+    "password":"Ravindra",
+    "firstName":"Ravindra",
+    "lastName":"Swamy",
+    "DOB":"1995-08-14"
+}
